@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MOM2B|Pregnancy Calculator</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="86400">
+    <meta name="description" content="A slick pregnancy calculator for the mobile era" />
+
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="favico.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favico.png" />
+
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <settings>
+        <section id="head">
+            <span>Customize</span>
+            <span id="closeSettings" class="icon-arrow-left2"></span>
+        </section>
+
+        <section id="main">
+            <div>
+                <label for="inputDate">
+                    <span id="inputDisplay"></span>
+                </label>
+                <input type="date" id="inputDate">
+                <span class="date-label">Last Menstural Period</span>
+                <span class="date-desc">
+                    Day one of your last menstrual period
+                </span>
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="targetDate">
+                    <span id="targetDisplay"></span>
+                </label>
+                <input type="date" id="targetDate">
+                <span class="date-label">Future Date</span>
+                <span class="date-desc">
+                    change to calculate for a future date instead of today.
+                </span>
+            </div>
+        </section>
+    </settings>
+
+    <page>
+        <section id="head">
+            <span id="openSettings" class="icon-calendar"></span>
+        </section>
+
+        <section id="main">
+            <div id="output">
+                <span id="outputType">WEEK</span>
+                <span id="outputMain"></span>
+                <span id="outputSub"></span>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div id="progress">
+                <div class="group">
+                    <span id="dueDateLabel">DUE DATE</span>
+                    <span id="dueDate"></span>
+                </div>
+                <div id="progressBg"></div>
+                <div id="progressFg"></div>
+            </div>
+        </section>
+    </page>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
