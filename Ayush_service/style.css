@@ -1,0 +1,50 @@
+body{
+    background-attachment: fixed;
+    background-color: rgb(47, 67, 123);
+    
+}
+/* div{
+    background-color: rgb(23, 218, 153);
+} */
+button{
+    background-color: rgb(0, 128, 255);
+    border: 2;
+    position: relative;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    }
+p{
+    color:rgb(224, 18, 176);
+    text-align: center;
+}
+h1{
+    color:#ffffff;
+    text-align: center;
+}
+h2{
+    color:rgb(12, 117, 208)
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  offset-distance: 0;
+  row-gap: 20px;
+  padding: 10px;
+}
+
+.grid-item {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  /*padding: 20px;*/
+  font-size: 30px;
+  text-align: center;
+  transition: transform 0.6s;
+}
+.grid-item:hover{
+    transform: scale(1.1);
+}
+img {
+    height:300px;
+    width:450px;
+} 
